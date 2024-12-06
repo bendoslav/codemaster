@@ -9,7 +9,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/codemaster">
       <div className="min-h-screen bg-[#0B0A10]">
         <Navbar />
         <Routes>
